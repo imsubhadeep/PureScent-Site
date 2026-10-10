@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | PureScent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <script src="Tailwind/browser@4.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="w-auto h-[50px] m-5">
+        <nav class="w-full h-full bg-violet-300 flex justify-around items-center rounded-2xl">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Collection</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="" class="font-[manrope] text-2xl font-bold">PureScent</a></li>
+            </ul>
+
+            <ul class="flex gap-6">
+                <li><a href="" class="font-[Montserrat] font-medium">Home</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium">Shop</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium">Collections</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium">About</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium">Contact</a></li>
+            </ul>
+
+            <ul class="flex gap-6">
+                <li><button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><button><i class="fa-solid fa-user"></i></button></li>
+                <li><button><i class="fa-solid fa-cart-shopping"></i></button></li>
             </ul>
         </nav>
     </header>
