@@ -12,23 +12,23 @@
 </head>
 <body>
     <header class="w-auto h-[60px] m-5">
-        <nav class="w-full h-full bg-neutral-200 flex justify-around items-center rounded-2xl">
+        <nav class="w-full h-full bg-black/90 flex justify-around items-center rounded-2xl">
             <ul>
-                <li><a href="index.html" class="font-[manrope] text-2xl font-bold">PureScent</a></li>
+                <li><a href="index.html" class="font-[manrope] text-2xl text-white font-bold">PureScent</a></li>
             </ul>
 
             <ul class="flex gap-6">
-                <li><a href="" class="font-[Montserrat] font-medium">Home</a></li>
-                <li><a href="" class="font-[Montserrat] font-medium">Shop</a></li>
-                <li><a href="" class="font-[Montserrat] font-medium">Collections</a></li>
-                <li><a href="" class="font-[Montserrat] font-medium">About</a></li>
-                <li><a href="" class="font-[Montserrat] font-medium">Contact</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium text-white">Home</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium text-white">Shop</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium text-white">Collections</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium text-white">About</a></li>
+                <li><a href="" class="font-[Montserrat] font-medium text-white">Contact</a></li>
             </ul>
 
             <ul class="flex gap-6">
-                <li><button><i class="fa-solid fa-magnifying-glass text-[19px]"></i></button></li>
-                <li><button><i class="fa-solid fa-user text-[18px]"></i></button></li>
-                <li><button><i class="fa-solid fa-cart-shopping text-[18px]"></i></button></li>
+                <li><button><i class="fa-solid fa-magnifying-glass text-[19px] text-white"></i></button></li>
+                <li><button><i class="fa-solid fa-user text-[18px] text-white"></i></button></li>
+                <li><button><i class="fa-solid fa-cart-shopping text-[18px] text-white"></i></button></li>
             </ul>
         </nav>
     </header>
@@ -70,14 +70,14 @@
 
 
                 <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-neutral-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none rounded-full">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-black/80 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none rounded-full">
                         <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/></svg>
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
 
                 <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-neutral-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none rounded-full">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-black/80 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none rounded-full">
                         <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg>
                         <span class="sr-only">Next</span>
                     </span>
@@ -88,20 +88,17 @@
         <section class="m-5 w-auto">
             <div class="w-full flex flex-col justify-center items-center">
                 <div class="hidden bg-black h-1 w-[50%]"></div>
-                <h3 class="my-6 font-[Montserrat] text-3xl font-semibold text-neutral-800">Best Sellers</h3>
+                <h3 class="my-6 font-[Montserrat] text-3xl font-semibold text-black/80">Best Sellers</h3>
                 <!-- <span><i class="fa-solid fa-angles-down"></i></span> -->
                 <div class="hidden bg-black h-1 w-[50%]"></div>
             </div>
 
             <div id="output" class="w-full grid grid-cols-4 gap-x-[100px] gap-y-[40p] justify-center justify-items-center my-10">
-                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
-                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
-                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
-                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
             </div>
         </section>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
