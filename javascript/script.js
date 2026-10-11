@@ -28,7 +28,7 @@ let output = document.getElementById("output")
 
 bestSellers.forEach(perfume => {
     output.innerHTML += `
-    <div class="h-[420px] w-[280px] bg-gray-50 border border-gray-200 shadow-md rounded-lg overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-1">
+    <div class="h-[420px] w-[280px] shadow-md rounded-lg overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-1">
         <div class="h-[300px] w-full flex items-center justify-center">
             <img src="${perfume.img}" alt="${perfume.name}" class="h-full w-full rounded-bl-xl rounded-br-xl">
         </div>
@@ -36,7 +36,7 @@ bestSellers.forEach(perfume => {
         <div class="text-center my-5">
             <p class="text-xl font-[Montserrat] font-semibold text-gray-800">${perfume.name}</p>
             <button class="bg-black/80 w-[80%] h-10 mt-4 text-white rounded-full transition duration-300 hover:bg-neutral-500">
-                View Product
+                Buy Now
             </button>
         </div>
     </div>
