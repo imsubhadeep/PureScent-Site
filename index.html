@@ -14,7 +14,7 @@
     <header class="w-auto h-[60px] m-5">
         <nav class="w-full h-full bg-neutral-200 flex justify-around items-center rounded-2xl">
             <ul>
-                <li><a href="" class="font-[manrope] text-2xl font-bold">PureScent</a></li>
+                <li><a href="index.html" class="font-[manrope] text-2xl font-bold">PureScent</a></li>
             </ul>
 
             <ul class="flex gap-6">
@@ -86,11 +86,19 @@
         </section>
 
         <section class="m-5 w-auto">
-            <div class="flex justify-center">
-                <h3 class="font-[Montserrat] text-2xl font-semibold text-neutral-800">Best Sellers</h3>
+            <div class="w-full flex flex-col justify-center items-center">
+                <div class="hidden bg-black h-1 w-[50%]"></div>
+                <h3 class="my-6 font-[Montserrat] text-3xl font-semibold text-neutral-800">Best Sellers</h3>
+                <!-- <span><i class="fa-solid fa-angles-down"></i></span> -->
+                <div class="hidden bg-black h-1 w-[50%]"></div>
             </div>
 
-            <div id="output"></div>
+            <div id="output" class="w-full grid grid-cols-4 gap-x-[100px] gap-y-[40p] justify-center justify-items-center my-10">
+                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
+                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
+                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
+                <div class="h-[390px] w-[320px] bg-black rounded-lg"></div>
+            </div>
         </section>
     </main>
 
