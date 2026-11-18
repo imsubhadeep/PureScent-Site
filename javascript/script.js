@@ -5,25 +5,25 @@ let bestSellers = [
   {
     id: 1,
     name: "Neroli Blossom",
-    img: "assets/img/bs_1.png",
+    img: "./assets/img/bs_1.png",
   },
 
   {
     id: 2,
     name: "Iris Blanc",
-    img: "assets/img/bs_2.png",
+    img: "./assets/img/bs_2.png",
   },
 
   {
     id: 3,
     name: "Azure Mist",
-    img: "assets/img/bs_3.png",
+    img: "./assets/img/bs_3.png",
   },
 
   {
     id: 4,
     name: "Silk Embrace",
-    img: "assets/img/bs_4.png",
+    img: "./assets/img/bs_4.png",
   },
 ]
 
@@ -33,49 +33,49 @@ let newArriavls = [
   {
     id: 1,
     name: "Neroli Blossom",
-    img: "assets/img/na_1.png",
+    img: "./assets/img/na_1.png",
   },
 
   {
     id: 2,
     name: "Iris Blanc",
-    img: "assets/img/na_2.png",
+    img: "./assets/img/na_2.png",
   },
 
   {
     id: 3,
     name: "Azure Mist",
-    img: "assets/img/na_3.png",
+    img: "./assets/img/na_3.png",
   },
 
   {
     id: 4,
     name: "Silk Embrace",
-    img: "assets/img/na_4.png",
+    img: "./assets/img/na_4.png",
   },
 
   {
     id: 5,
     name: "Neroli Blossom",
-    img: "assets/img/na_5.png",
+    img: "./assets/img/na_5.png",
   },
 
   {
     id: 6,
     name: "Iris Blanc",
-    img: "assets/img/na_6.png",
+    img: "./assets/img/na_6.png",
   },
 
   {
     id: 7,
     name: "Azure Mist",
-    img: "assets/img/na_7.png",
+    img: "./assets/img/na_7.png",
   },
 
   {
     id: 8,
     name: "Silk Embrace",
-    img: "assets/img/na_8.png",
+    img: "./assets/img/na_8.png",
   },
 ]
 
